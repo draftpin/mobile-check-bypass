@@ -1,17 +1,15 @@
 // ==UserScript==
 // @name         Mobile Check Bypass
-// @version      1.0
+// @version      1.1
 // @namespace    Violentmonkey Scripts
-// @description  Bypass mobile check in most crypto bots. Feel free to insert @match sections to add new bots. Updated: 02.10.2024
+// @description  Bypass mobile check in most crypto bots. Feel free to insert @match sections to add new bots. Updated: 09.10.2024
 // @author       Ergamon
 // @match        *://bluefarming.xyz/*
 // @match        *://alohomora-bucket-fra1-prod-frontend-static.fra1.cdn.digitaloceanspaces.com/*
 // @match        *://thevertus.app/*
 // @match        *://app.diamore.co/*
 // @match        *://app.city-holder.com/*
-// @match        *://hamsterkombatgame.io/*
 // @match        *://game.xempire.io/*
-// @match        *://hamsterkombatgame.io/*
 // @run-at       document-start
 // @grant        none
 // @icon         https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRySWsVzj4bozodJat-FKZC1L0lEIq-Q_NoCQ&s
@@ -41,7 +39,7 @@ function emitIphone() {
         }
         if (url.includes('tgWebAppPlatform')) {
             location.href = url.replace(/tgWebAppPlatform=[a-z]*\&/g, 'tgWebAppPlatform=ios&')
-            console.log('[GBOT] Updated HREF:', location.href)
+            console.dir('[GBOT] Updated HREF:', location.href)
         }
     }
     updateIframeLink()
