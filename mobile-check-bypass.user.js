@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Mobile Check Bypass
-// @version      1.1
+// @version      1.2
 // @namespace    Violentmonkey Scripts
 // @description  Bypass mobile check in most crypto bots. Feel free to insert @match sections to add new bots. Updated: 09.10.2024
 // @author       Ergamon
@@ -59,6 +59,11 @@ function emitIphone() {
     Object.defineProperty(navigator, 'maxTouchPoints', {
         get: function() { return 5 }
     })
+}
+
+function mobileCheck() {
+    const text = document.body?.innerText
+    return text && text.replaceAll('\n', ' ').match(/(Play|Use).*(mobile|smartphone)/gi)
 }
 
 function onStart() {
