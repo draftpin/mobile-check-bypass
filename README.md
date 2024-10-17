@@ -1,5 +1,5 @@
 # mobile-check-bypass
-Automatically bypasses mobile check in several telegram crypto bots (Blue, W-Coin, Diamore, Nobby) allowing to run on Web
+Automatically bypasses mobile check in several telegram crypto bots (Blue, W-Coin, Diamore, Nobby, CityHolder) allowing to run on Web Telegram
 
 # How to run:
 1. Install [Violentmonkey](https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag?hl=be)
@@ -10,5 +10,5 @@ Automatically bypasses mobile check in several telegram crypto bots (Blue, W-Coi
 ✅ [W-Coin](https://t.me/wcoin_tapbot?start=NTE2MDEzOTky)
 ✅ [Diamore](https://t.me/DiamoreCryptoBot/app?startapp=516013992)
 ✅ [Nobby](https://t.me/NobbyGame_bot/?start=tg516013992)
-❌ [CityHolder](https://t.me/cityholder/game?startapp=516013992)
+✅ [CityHolder](https://t.me/cityholder/game?startapp=516013992)
 ❌ [Vertus](https://t.me/vertus_app_bot/app?startapp=516013992)
