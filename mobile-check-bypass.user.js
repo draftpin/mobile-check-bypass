@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         Mobile Check Bypass
-// @version      1.2
+// @version      1.3
 // @namespace    Violentmonkey Scripts
 // @description  Bypass mobile check in most crypto bots. Feel free to insert @match sections to add new bots. Updated: 09.10.2024
 // @author       Ergamon
 // @match        *://bluefarming.xyz/*
-// @match        *://alohomora-bucket-fra1-prod-frontend-static.fra1.cdn.digitaloceanspaces.com/*
+// @match        *://app.w-coin.io/*
 // @match        *://thevertus.app/*
 // @match        *://app.diamore.co/*
 // @match        *://app.city-holder.com/*
