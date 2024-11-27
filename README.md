@@ -6,7 +6,7 @@ Automatically bypasses mobile check in several telegram crypto bots (Bums, Blue,
 2. Install [Mobile Check Bypass Script](https://github.com/draftpin/mobile-check-bypass/raw/main/mobile-check-bypass.user.js)
 
 # Works on:
-- ✅ [Bums](https://t.me/bums/app?startapp=ref_A4nckjC7) ✅
+- ✅ [Bums](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dbums%26appname%3Dapp%26startapp%3Dref_A4nckjC7) ✅
   
 - ✅ [Blue](https://web.telegram.org/k/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3Dbluefarming_bot%26appname%3Dplay%26startapp%3D6444ac82) ✅
 - ✅ [Bybit CoinSweeper](https://web.telegram.org/a/#?tgaddr=tg%3A%2F%2Fresolve%3Fdomain%3DBybitCoinsweeper_Bot%26start%3DreferredBy%3D516013992) (A-Mode) ⚠️
